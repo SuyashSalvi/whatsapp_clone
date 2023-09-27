@@ -1,0 +1,113 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+    justify-content: space-between;
+}
+
+.sidebar__header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(48, 48, 75);
+}
+
+.sidebar__left{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.sidebar__left > p{
+    line-height: 0.9;
+    overflow: hidden;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sidebar__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.sidebar__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 75);
+    padding: 8px;
+}
+
+.sidebar__footer__searchbar {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    background-color: rgb(72, 72, 111);
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.sidebar__footer__searchbar > form >button{
+    display: none;
+}
+
+.sidebar__footer__searchbar > form {
+    width: 100%;
+    padding-top: 3px;
+}
+
+.sidebar__footer__searchbar > form > input{
+    width: 93%;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.sidebar__body{
+    flex: 1;
+    background-image: url("img1.webp");
+    background-repeat: repeat;
+    background-position: center;
+    overflow: scroll;
+    padding: 20px;
+    margin: 3px;
+}
+
+.chat__message{
+    position: relative;
+    font-size: 12px;
+    padding: 10px; width: fit-content;
+    border-radius: 10px; background-color:rgb(48, 48, 75);
+    margin-bottom: 30px;
+
+}
+
+.chat__name{
+    color: rgb(88, 234, 81);
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.chat__timestamp{
+    font-style: italic;
+    font-size: xx-small;
+    display: block;
+    text-align: end;
+    margin-top: 5px;
+}
+
+.chat__recevier{
+    margin-left: auto;
+    background-color: brown;
+
+}
